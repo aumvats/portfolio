@@ -24,7 +24,7 @@ export const DATA = {
     { href: "https://substack.com/@aumvats", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "its.aumvats@gmail.com",
+    email: "aum@aumvats.com",
     social: {
       GitHub: {
         name: "GitHub",
@@ -55,7 +55,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "mailto:its.aumvats@gmail.com",
+        url: "mailto:aum@aumvats.com",
         icon: Icons.email,
 
         navbar: true,
