@@ -55,10 +55,10 @@ export default function Page() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size={`sm`} variant={`outline`}>
+                {/*<Button size={`sm`} variant={`outline`}>
                   View Resume
                   <Notebook className="ml-2 h-4 w-4" />
-                </Button>
+               </Button> */}
               </Link>
             </div>
         </BlurFade>
