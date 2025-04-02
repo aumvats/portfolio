@@ -244,7 +244,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-<analytics />
+      <Analytics />
     </main>
   );
 }
