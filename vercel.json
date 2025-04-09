@@ -29,6 +29,11 @@
       "source": "/maybeeureka",
       "destination": "https://maybeeureka.substack.com",
       "permanent" : true
+    },
+    {
+      "source": "/aum-rapido"
+      "destination": "https://pitch.com/v/aum-rapido-snzrb9",
+      "permanent" : true
     }
     
   ]
