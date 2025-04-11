@@ -34,6 +34,11 @@
       "source": "/aum-rapido",
       "destination": "https://pitch.com/v/aum-rapido-snzrb9",
       "permanent" : true
+    },
+   {
+      "source": "/qcomm-study",
+      "destination": "https://maybeeureka.substack.com/p/blinkit-zepto-case-study",
+      "permanent" : true
     }
     
   ]
