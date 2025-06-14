@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #fff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+.minimal-container {
+  max-width: 600px;
+  margin: 40px auto 0 auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+p, ul, ol, li, span, div {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+/* Minimal black and white design system */
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --foreground: 0 0 0;
+    --card: 255 255 255;
+    --card-foreground: 0 0 0;
+    --popover: 255 255 255;
+    --popover-foreground: 0 0 0;
+    --primary: 0 0 0;
+    --primary-foreground: 255 255 255;
+    --secondary: 245 245 245;
+    --secondary-foreground: 0 0 0;
+    --muted: 245 245 245;
+    --muted-foreground: 115 115 115;
+    --accent: 245 245 245;
+    --accent-foreground: 0 0 0;
+    --destructive: 0 0 0;
+    --destructive-foreground: 255 255 255;
+    --border: 229 229 229;
+    --input: 229 229 229;
+    --ring: 0 0 0;
+    --radius: 0.125rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-white text-foreground font-mono;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    @apply bg-black text-white;
+  }
+}
+
+@layer utilities {
+  .cursor-interaction {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .hover-lift {
+    @apply cursor-interaction hover:-translate-y-1 hover:shadow-lg;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-black to-gray-600 bg-clip-text text-transparent;
+  }
+}
