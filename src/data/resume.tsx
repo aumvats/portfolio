@@ -9,8 +9,8 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/newdelhi",
   description:
     "Product Manager",
-  ///summary:
-    ///"", ///In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1)."
+  summary:
+    "Updating Soon", ///In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1)."
   avatarUrl: "/me.png",
   skills: [
     "Next.js",
