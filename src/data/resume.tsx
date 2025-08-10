@@ -8,9 +8,9 @@ export const DATA = {
   location: "Delhi, IN",
   locationLink: "https://www.google.com/maps/place/newdelhi",
   description:
-    "Product Marketer turned Entrepreneur. I love building things and marketing them. Very active on Twitter.",
-  summary:
-    "During the start of 2024, I quit my CS degree to go fulltime into building and scaling my own SaaS businesses.", ///In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1)."
+    "Product Manager",
+  ///summary:
+    ///"", ///In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1)."
   avatarUrl: "/me.png",
   skills: [
     "Next.js",
@@ -65,16 +65,16 @@ export const DATA = {
 
   work: [
     {
-      company: "CloseDot",
-      href: "https://closedot.com",
+      company: "Bounce",
+      href: "https://bouncedaily.link/aumvats",
       badges: [],
       location: "India",
-      title: "Co-founder",
+      title: "Product Manager",
       logoUrl: "/closedot.png",
-      start: "February 2025",
-      end: "Present",
-      description:
-        "Building Clara - The AI HR ",
+      start: "May 2025",
+      end: "Present"
+      //description:
+        //"Building Clara - The AI ",
     },
     {
       company: "Eazybe",
@@ -101,148 +101,148 @@ export const DATA = {
         "freewater.io for India",
     },
   ],
-  education: [
-    {
-      school: "Product School",
-      href: "https://productschool.com/",
-      degree: "Product Launches Micro-Certification (PRLC)",
-      logoUrl: "/product school.jpg",
-      start: "",
-      end: "2025",
-    },
-    {
-      school: "Central Board of Secondary Education",
-      href: "https://www.cbse.gov.in/",
-      degree: "Intermediate",
-      logoUrl: "/cbse.png",
-      start: "",
-      end: "2021",
-    },
+  // education: [
+  //   {
+  //     school: "Product School",
+  //     href: "https://productschool.com/",
+  //     degree: "Product Launches Micro-Certification (PRLC)",
+  //     logoUrl: "/product school.jpg",
+  //     start: "",
+  //     end: "2025",
+  //   },
+  //   {
+  //     school: "Central Board of Secondary Education",
+  //     href: "https://www.cbse.gov.in/",
+  //     degree: "Intermediate",
+  //     logoUrl: "/cbse.png",
+  //     start: "",
+  //     end: "2021",
+  //   },
     
-  ],
+  //  ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Blinkit or Zepto? A Rider’s Journey in the Q-Commerce Revolution",
+      href: "https://maybeeureka.substack.com/p/blinkit-zepto-case-study",
+      dates: "April 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Semrush",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "A case-study on quick commerce apps. This project shares my firsthand experience working as a delivery rider for Blinkit and Zepto, comparing aspects like order efficiency, rider support, safety challenges, and company culture, and offers practical recommendations for improvement. 2.2M+ impressions on X, 13k likes, 6 national news article features on Hindustan Times, NDTV, India Today, Mint.",
+      // technologies: [
+      //   "Semrush",
+      //   "Typescript",
+      //   "PostgreSQL",
+      //   "Prisma",
+      //   "TailwindCSS",
+      //   "Stripe",
+      //   "Shadcn UI",
+      //   "Magic UI",
+      // ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Read Here",
+          href: "https://maybeeureka.substack.com/p/blinkit-zepto-case-study",
+          //icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+     // video:
+      //  "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+    }
+    // {
+    //   title: "Magic UI",
+    //   href: "https://magicui.design",
+    //   dates: "June 2023 - Present",
+    //   active: true,
+    //   description:
+    //     "Designed, developed and sold animated UI components for developers.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Stripe",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://magicui.design",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/magicuidesign/magicui",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://cdn.magicui.design/bento-grid.mp4",
+    // },
+    // {
+    //   title: "llm.report",
+    //   href: "https://llm.report",
+    //   dates: "April 2023 - September 2023",
+    //   active: true,
+    //   description:
+    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //     "Stripe",
+    //     "Cloudflare Workers",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://llm.report",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/dillionverma/llm.report",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video: "https://cdn.llm.report/openai-demo.mp4",
+    // },
+    // {
+    //   title: "Automatic Chat",
+    //   href: "https://automatic.chat",
+    //   dates: "April 2023 - March 2024",
+    //   active: true,
+    //   description:
+    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+    //   technologies: [
+    //     "Next.js",
+    //     "Typescript",
+    //     "PostgreSQL",
+    //     "Prisma",
+    //     "TailwindCSS",
+    //     "Shadcn UI",
+    //     "Magic UI",
+    //     "Stripe",
+    //     "Cloudflare Workers",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://automatic.chat",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    // },
   ],
   // hackathons: [
   //   {
