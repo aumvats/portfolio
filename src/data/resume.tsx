@@ -128,26 +128,19 @@ export const DATA = {
       active: true,
       description:
         "A case-study on quick commerce apps. This project shares my firsthand experience working as a delivery rider for Blinkit and Zepto, comparing aspects like order efficiency, rider support, safety challenges, and company culture, and offers practical recommendations for improvement. 2.2M+ impressions on X, 13k likes, 6 national news article features on Hindustan Times, NDTV, India Today, Mint.",
-      // technologies: [
-      //   "Semrush",
-      //   "Typescript",
-      //   "PostgreSQL",
-      //   "Prisma",
-      //   "TailwindCSS",
-      //   "Stripe",
-      //   "Shadcn UI",
-      //   "Magic UI",
-      // ],
+      technologies: [
+      ""
+      ],
       links: [
         {
           type: "Read Here",
           href: "https://maybeeureka.substack.com/p/blinkit-zepto-case-study",
-          //icon: <Icons.globe className="size-3" />,
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-     // video:
-      //  "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+     video:
+       "",
     }
     // {
     //   title: "Magic UI",
