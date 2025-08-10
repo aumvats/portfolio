@@ -70,7 +70,7 @@ export const DATA = {
       badges: [],
       location: "India",
       title: "Product Manager",
-      logoUrl: "/closedot.png",
+      logoUrl: "/bounce-logo.png",
       start: "May 2025",
       end: "Present",
       description:
