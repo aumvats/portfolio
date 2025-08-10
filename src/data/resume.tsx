@@ -13,11 +13,11 @@ export const DATA = {
     "Updating Soon", ///In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1)."
   avatarUrl: "/me.png",
   skills: [
-    "Next.js",
-    "Typescript",
-    "Python",
-    "Google Search Console",
-    "Semrush",
+    "Product Management"
+    // "Typescript",
+    // "Python",
+    // "Google Search Console",
+    // "Semrush"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -72,9 +72,9 @@ export const DATA = {
       title: "Product Manager",
       logoUrl: "/closedot.png",
       start: "May 2025",
-      end: "Present"
-      //description:
-        //"Building Clara - The AI ",
+      end: "Present",
+      description:
+        "Leading the rider experience at Bounce Daily to make EVs more accessible.",
     },
     {
       company: "Eazybe",
